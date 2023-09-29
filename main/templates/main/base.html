@@ -10,18 +10,18 @@
 </head>
 <body>
     <header>
-        <a href="{% url 'main' %}">Головна</a>
-        <a href="{% url 'education' %}">Освіта</a>
-        <a href="{% url 'achievements' %}">Досягнення</a>
-        <a href="{% url 'hobby' %}">Хоббі</a>
-        <a href="{% url 'leisure' %}">Дозвілля</a>
+        <a class = "page" href="{% url 'main' %}">Головна</a>
+        <a class = "page" href="{% url 'education' %}">Освіта</a>
+        <a class = "page" href="{% url 'achievements' %}">Досягнення</a>
+        <a class = "page" href="{% url 'hobby' %}">Хоббі</a>
+        <a class = "page" href="{% url 'leisure' %}">Дозвілля</a>
     </header>
     <main>
         {% block content %}
         {% endblock %}
     </main>
     <footer>
-        <h1 id = "footerh1">If you have any questions consider writing <a id = "contact-link" href="https://t.me/shooteett">here </a></h1>
+        <h3>If you have any question consider writing <a href="https://t.me/shooteett">here</a></h3>
     </footer>
 </body>
 </html>

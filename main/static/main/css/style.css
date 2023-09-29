@@ -1,6 +1,11 @@
-a{
+.page{
     color: orange;
     font-size: 40px;
+    text-decoration: none;
+    transition: color 0.3s linear;
+}
+.page:hover{
+    color:red;
 }
 * {
     margin: 0;
@@ -17,14 +22,11 @@ main{
     min-height: 900px;
 }
 footer{
-    position: absolute;
     bottom: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     background-color: grey;
     min-width: 100%;
 }
-#contact-link{
-    font-size: 15px;
-}
+

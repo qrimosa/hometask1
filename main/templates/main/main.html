@@ -1,1 +1,12 @@
 {% extends 'main/base.html' %}
+{% load static %}
+{% block links %}
+    <link rel="stylesheet"  href="{% static 'achievements/css/style.css' %}">
+{% endblock %}
+{% block content %}
+    <h1>Наша команда та їх гітхаби!</h1>
+    <a href="https://github.com/devcauses"><img width = "350" height ="400" src="https://www.meme-arsenal.com/memes/6ccbf0cc5d0933208d197832b7f00a14.jpg" alt=""></a>
+    <a href="https://github.com/Denisus-png"><img width = "350" height ="400" src="https://kinoreporter.ru/wp-content/uploads/2021/02/ALMPNCG64-e1651473363290-750x451.jpg?x55550" alt=""></a>
+    <a href="https://github.com/AndriiBystrov"><img width = "350" height ="400" src="https://sportshub.cbsistatic.com/i/2021/03/17/e2fda6db-b005-44be-baaa-f9063a20ca20/jojos-bizarre-adventure-meme-1185222.jpg" alt=""></a>
+    <a href="https://github.com/qrimosa"><img width = "350" height ="400" src="https://static.wikia.nocookie.net/villains/images/7/7b/Tylerbetterpicture.jpg/revision/latest/scale-to-width-down/1000?cb=20170410170911" alt=""></a>
+{% endblock %}
